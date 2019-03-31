@@ -40,11 +40,11 @@
           :to="{ name: option.routeName }"
           exact
         >
-          <v-list-tile-action class="secondary--text">
+          <v-list-tile-action>
             <v-icon>{{ option.icon }}</v-icon>
           </v-list-tile-action>
 
-          <v-list-tile-content class="secondary--text">
+          <v-list-tile-content>
             <v-list-tile-title>{{ option.text }}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
