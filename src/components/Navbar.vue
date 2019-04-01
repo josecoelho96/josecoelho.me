@@ -1,7 +1,7 @@
 <template>
   <nav>
     <v-toolbar app dark color="primary">
-      <v-toolbar-side-icon @click="isDrawOpen = !isDrawOpen" />
+      <v-toolbar-side-icon @click="isDrawerOpen = !isDrawerOpen" />
       <router-link :to="{ name: 'home' }" class="white--text">
         <v-toolbar-title class="headline text-uppercase">
           <span class="font-weight-light">{{ name.firstName }}</span>
@@ -21,7 +21,7 @@
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
-    <v-navigation-drawer v-model="isDrawOpen" app temporary fixed>
+    <v-navigation-drawer v-model="isDrawerOpen" app temporary fixed>
       <v-list class="pa-1">
         <v-list-tile :to="{ name: 'home' }">
           <v-list-tile-content>
@@ -78,7 +78,7 @@ export default {
           icon: "email"
         }
       ],
-      isDrawOpen: false,
+      isDrawerOpen: false,
       firstName: "José",
       name: { firstName: "José", lastName: "Coelho" }
     };
