@@ -49,8 +49,8 @@
             </p>
           </div>
 
-          <div class="pt-4" @click="showTimeline = !showTimeline">
-            <v-btn color="info"
+          <div class="pt-4">
+            <v-btn color="info" @click="showTimeline = !showTimeline"
               >View {{ showTimeline ? "less" : "more" }}!</v-btn
             >
           </div>
