@@ -79,7 +79,6 @@ export default {
         }
       ],
       isDrawerOpen: false,
-      firstName: "José",
       name: { firstName: "José", lastName: "Coelho" }
     };
   }
