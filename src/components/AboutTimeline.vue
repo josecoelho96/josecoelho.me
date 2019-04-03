@@ -11,8 +11,8 @@
       <v-flex xs12 lg8 offset-lg2 text-xs-center>
         <v-slide-y-transition>
           <div v-show="showTimeline" class="pt-3">
-            <SmallScreenTimeline />
-            <BigScreenTimeline />
+            <SmallScreenTimeline :entries="timelineEntries" />
+            <BigScreenTimeline :entries="timelineEntries" />
           </div>
         </v-slide-y-transition>
       </v-flex>
@@ -26,6 +26,8 @@ import goTo from "vuetify/lib/components/Vuetify/goTo";
 import SmallScreenTimeline from "@/components/SmallScreenTimeline.vue";
 import BigScreenTimeline from "@/components/BigScreenTimeline.vue";
 
+import timelineJsonData from "@/data/timeline.json";
+
 export default {
   name: "AboutTimeline",
   components: {
@@ -34,7 +36,8 @@ export default {
   },
   data: function() {
     return {
-      showTimeline: false
+      showTimeline: false,
+      timelineEntries: timelineJsonData.timelineItems
     };
   },
   methods: {

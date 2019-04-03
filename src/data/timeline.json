@@ -1,0 +1,76 @@
+{
+    "timelineItems": [
+        {
+            "title": "Software Engineer",
+            "date": "March 2019",
+            "color": "amber",
+            "references": {
+                "url": "http://google.com"
+            },
+            "description": "I started a part-time job as a Software Engineer at Premium Minds."
+        },
+        {
+            "title": "Started MSc Thesis",
+            "date": "September 2018",
+            "color": "amber",
+            "references": {},
+            "description": "I started the research related to my thesis."
+        },
+        {
+            "title": "Left NEECIST",
+            "date": "September 2018",
+            "color": "amber",
+            "references": {},
+            "description": "I ended my relationship with NEECIST."
+        },
+        {
+            "title": "Summer Internship",
+            "date": "July 2018",
+            "color": "amber",
+            "references": {},
+            "description": "I started a Summer Internship as a Software Engineer at Premium Minds."
+        },
+        {
+            "title": "Volunteer",
+            "date": "March 2018",
+            "color": "amber",
+            "references": {},
+            "description": "I was a volunteer at WebSummit registration team."
+        },
+        {
+            "title": "Promoted at NEECIST",
+            "date": "September 2017",
+            "color": "amber",
+            "references": {},
+            "description": "I was promoted to being the President of NEECIST."
+        },
+        {
+            "title": "Promoted at NEECIST",
+            "date": "September 2016",
+            "color": "amber",
+            "references": {},
+            "description": "I was promoted to being one of the Vice-President of NEECIST."
+        },
+        {
+            "title": "Joined NEECIST!",
+            "date": "March 2015",
+            "color": "amber",
+            "references": {},
+            "description": "I joined NEECIST."
+        },
+        {
+            "title": "Started college!",
+            "date": "September 2014",
+            "color": "amber",
+            "references": {},
+            "description": "I started my MSc on Electrical Engineering and Computer Science at Técnico Lisboa."
+        },
+        {
+            "title": "I was born!",
+            "date": "1996",
+            "color": "amber",
+            "references": {},
+            "description": "I was born on April 3rd, 1996 in Viseu."
+        }
+    ]
+}
