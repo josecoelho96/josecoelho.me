@@ -32,3 +32,9 @@
     </v-container>
   </v-content>
 </template>
+
+<script>
+export default {
+  name: "Contact",
+};
+</script>
